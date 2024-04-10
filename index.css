@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url(header-bg.jpg);
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo {
+    padding: 16px 0px 7px 85px;
+}
+
+.edu-well {
+    display: flex;
+}
+
+.home ul {
+    display: flex;
+    list-style: none;
+    margin: 35px 0px 0px 230px;
+}
+
+.home ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+}
+
+.contener {
+    margin-top: 90px;
+}
+
+.nav {
+    display: flex;
+}
+
+/* .school{
+    margin: 83px 0px 0px 90px;
+} */
+
+.page1 {
+    position: relative;
+    z-index: 2;
+    font-size: 17px;
+    font-weight: 500;
+    color: #777777;
+}
+
+.page2 {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    font-size: 64px;
+    color: #111111;
+    font-weight: 900;
+    line-height: 74px;
+    margin-bottom: 40px;
+}
+
+span {
+    font-style: normal;
+    color: #dc8cdb;
+}
+
+.button1 {
+    font-size: 13px;
+    color: #fff;
+    background: rgb(219, 138, 222);
+    background: linear-gradient(-145deg, rgba(219, 138, 222, 1) 0%, rgba(246, 191, 159, 1) 100%);
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s;
+
+}
+
+.yogesh {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.page3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.page4 {
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #111;
+}
+
+.dev {
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dev h {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.dev p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #4a4a4a;
+
+}
+
+.toy {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toy p {
+    text-align: center;
+}
+
+.page5 {
+    font-size: 14px;
+    line-height: 25px;
+    color: #4a4a4a;
+}
+
+.jaat {
+    display: flex;
+    margin-top: 90px;
+}
+
+.service p {
+    width: 340px;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 5px !important;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #111;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 900;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 3px solid rgba(219, 138, 222, 0.5);
+}
+
+.service {
+    margin-left: 50px;
+}
+
+.indian {
+    margin-left: 30px;
+}
+
+.greek {
+    margin-left: 30px;
+}
+
+.greek span {
+    font-size: 20px;
+    font-weight: 900;
+    background-color: pink;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.rajasthan {
+    display: flex;
+    margin-top: 48px;
+    background-color: white;
+    box-shadow: #111;
+}
+
+.indian h4 {
+    font-size: 20px;
+    color: #111;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.indian p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #4a4a4a;
+}
+
+.indian li {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 2px solid #111;
+}
+
+.indian ul {
+    display: flex;
+    list-style: none;
+}
+
+.naming {
+    margin-top: 90px;
+    background-image: url(cta-bg.png);
+    height: 720px;
+}
+
+.how {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.ram {
+    font-size: 62px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 74px;
+    margin-top: 20px;
+}
+
+.dog button {
+    font-size: 13px;
+    color: #dc8cdb;
+    background-color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    margin: 53px 0px 0px 0px;
+
+}
+
+.dog p {
+    margin-bottom: 20px;
+}
+
+.dog {
+    margin-left: 50px;
+}
+
+.aa {
+    text-align: center;
+    font-size: 27px;
+}
+
+.aa h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.aa em {
+    font-style: normal;
+    color: #dc8cdb;
+}
+
+.ppp {
+    height: 80vh;
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bissau p h4 span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bissau img {
+    position: absolute;
+}
+
+.content {
+    float: right;
+}
+.form{
+    display: flex;
+    background-image: url(footer-bg.png);
+    height: 690px;
+}
+.churu{
+    width: 60%;
+}
+.churu img{
+    height: 460px;
+    border-radius: 15px;
+    margin-left: 50px;
+
+}
+.mahan{
+    padding: 50px 45px 20px 45px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 695px;
+    margin-top: 30px;
+    position: absolute;
+    width: 40%;
+}
+.web{
+    
+}
